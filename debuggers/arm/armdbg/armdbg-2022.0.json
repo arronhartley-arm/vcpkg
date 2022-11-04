@@ -1,0 +1,40 @@
+{
+  "id": "debuggers/arm/armdbg",
+  "version": "2022.0",
+  "description": "Arm Debugger for Windows and Linux x86.",
+  "summary": "Arm Debugger",
+  "contacts": {
+    "Arron Hartley": {
+      "email": "arron.hartley@arm.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "http://e110276-lin.manchester.arm.com/downloads/win-x86_64/ArmDebugger.zip",
+        "sha256": "90057B8737B888C53CA5AEE332F1F73C401D6D3873124D2C2906DF4347EBEF9E",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        }
+      }
+    },
+    "linux and x64": {
+      "install": {
+        "unzip": "http://e110276-lin.manchester.arm.com/downloads/lin-x86_64/ArmDebugger.zip",
+        "sha256": "21134CAA478BBF5352E239FBC6E2DA3038F8D2207E089EFC96C3B55F1EDCD618",
+        "strip": 1
+      }
+    },
+    "not windows": {
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        }
+      }
+    }
+  }
+}
