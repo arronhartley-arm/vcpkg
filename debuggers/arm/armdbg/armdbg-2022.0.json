@@ -29,6 +29,13 @@
         "strip": 1
       }
     },
+    "osx": {
+      "install": {
+        "unzip": "http://e110276-lin.manchester.arm.com:8000/lin-x86_64/ArmDebugger.zip",
+        "sha256": "6f791179b804fb357ea7dbad90c19dae26cba7cdaaaf7170c1930d0fe6a554c1",
+        "strip": 1
+      }
+    },
     "not windows": {
       "exports": {
         "paths": {
