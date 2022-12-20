@@ -31,7 +31,7 @@
     },
     "osx": {
       "install": {
-        "unzip": "https://e110276-lin.manchester.arm.com:4443/mac-x86_64/ArmDebugger.zip",
+        "unzip": "https://e110276-lin.manchester.arm.com:4443/macos-x86_64/ArmDebugger.zip",
         "sha256": "6f791179b804fb357ea7dbad90c19dae26cba7cdaaaf7170c1930d0fe6a554c1",
         "strip": 1
       }
