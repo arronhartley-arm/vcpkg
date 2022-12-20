@@ -11,7 +11,11 @@ indexes:
       debuggers/arm: [ 0 ]
       debuggers/arm/armdbg: [ 0 ]
   SemverKey/version:
-    keys: {}
+    keys:
+      2022.0.0: [ 0 ]
   StringKey/summary:
-    keys: {}
-    words: {}
+    keys:
+      Arm Debugger: [ 0 ]
+    words:
+      Arm: [ 0 ]
+      Debugger: [ 0 ]
