@@ -1,5 +1,5 @@
 {
-  "id": "debuggers/arm/armdbg",
+  "id": "armdbg",
   "version": "2022.0.0",
   "description": "Arm Debugger for Windows and Linux x86.",
   "summary": "Arm Debugger",
