@@ -12,7 +12,7 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "http://e110276-lin.manchester.arm.com:8000/win-x86_64/ArmDebugger.zip",
+        "unzip": "https://e110276-lin.manchester.arm.com:8000/win-x86_64/ArmDebugger.zip",
         "sha256": "f01285a9cfc2ff5e2b2f25071449c2e34578fd318288d792657737d9a77e4ef0",
         "strip": 1
       },
@@ -24,14 +24,14 @@
     },
     "linux and x64": {
       "install": {
-        "unzip": "http://e110276-lin.manchester.arm.com:8000/lin-x86_64/ArmDebugger.zip",
+        "unzip": "https://e110276-lin.manchester.arm.com:8000/lin-x86_64/ArmDebugger.zip",
         "sha256": "6f791179b804fb357ea7dbad90c19dae26cba7cdaaaf7170c1930d0fe6a554c1",
         "strip": 1
       }
     },
     "osx": {
       "install": {
-        "unzip": "http://e110276-lin.manchester.arm.com:8000/lin-x86_64/ArmDebugger.zip",
+        "unzip": "https://e110276-lin.manchester.arm.com:8000/lin-x86_64/ArmDebugger.zip",
         "sha256": "6f791179b804fb357ea7dbad90c19dae26cba7cdaaaf7170c1930d0fe6a554c1",
         "strip": 1
       }
