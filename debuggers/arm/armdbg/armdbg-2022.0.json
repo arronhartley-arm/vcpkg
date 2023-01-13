@@ -12,8 +12,8 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://e110276-lin.manchester.arm.com:4443/win-x86_64/ArmDebugger.zip",
-        "sha256": "f01285a9cfc2ff5e2b2f25071449c2e34578fd318288d792657737d9a77e4ef0",
+        "unzip": "https://artifactory.geo.arm.com:443/artifactory/ds.ds-armdbg/release/0.0/139/win-x86_64/ArmDebugger.zip",
+        "sha256": "0a11de2cde47b71d30821759fe5db512432c6a25651d2bdbba582159dbd2a863",
         "strip": 1
       },
       "exports": {
@@ -24,15 +24,15 @@
     },
     "linux and x64": {
       "install": {
-        "unzip": "https://e110276-lin.manchester.arm.com:4443/lin-x86_64/ArmDebugger.zip",
-        "sha256": "6f791179b804fb357ea7dbad90c19dae26cba7cdaaaf7170c1930d0fe6a554c1",
+        "unzip": "https://artifactory.geo.arm.com:443/artifactory/ds.ds-armdbg/release/0.0/139/linux-x86_64/ArmDebugger.zip",
+        "sha256": "d193b2305309323c85f427fa1ae9cec7587e3526694283f0acde0ecdd70bebf7",
         "strip": 1
       }
     },
     "osx": {
       "install": {
-        "unzip": "https://e110276-lin.manchester.arm.com:4443/macos-x86_64/ArmDebugger.zip",
-        "sha256": "6f791179b804fb357ea7dbad90c19dae26cba7cdaaaf7170c1930d0fe6a554c1",
+        "unzip": "https://artifactory.geo.arm.com:443/artifactory/ds.ds-armdbg/release/0.0/139/linux-x86_64/ArmDebugger.zip",
+        "sha256": "d193b2305309323c85f427fa1ae9cec7587e3526694283f0acde0ecdd70bebf7",
         "strip": 1
       }
     },
